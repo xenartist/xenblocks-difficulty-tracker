@@ -2,7 +2,7 @@ name: Update XENBLOCKS Difficulty
 
 on:
   schedule:
-    - cron: '*/20 * * * *'  # Runs every 5 minutes
+    - cron: '*/10 * * * *'  # Runs every 10 minutes
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
